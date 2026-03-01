@@ -25,6 +25,27 @@ h1{
 h2{
 	color: white;
 }
+/* Стили для кнопок-ссылок (скругление только снизу) */
+a{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #8a2be2;      /* фиолетовый */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;   /* нет скругления сверху */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 2px solid #4b0082;
+    border-top: none;                /* убираем верхнюю рамку */
+}
+
+a:hover{
+    background-color: #ff69b4;       /* розовый */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
 	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +56,7 @@ h2{
 <center>
 	<img src="0821ef8da6042d6f211a365381b7f91c.png">
 	<h1 align="center">Потыкай,поводи по картинке</h1>
-	<a href="" align="center">Исходник</a>
+	<a href="https://github.com/fps120/fps_s60/tree/main" align="center">Исходник</a>
 </center>
 </body>
 </html>
