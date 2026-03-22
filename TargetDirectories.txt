@@ -1,0 +1,4 @@
+C:/Users/АРТЕМ/Desktop/ops/build/CMakeFiles/cs_client.dir
+C:/Users/АРТЕМ/Desktop/ops/build/CMakeFiles/cs_server.dir
+C:/Users/АРТЕМ/Desktop/ops/build/CMakeFiles/edit_cache.dir
+C:/Users/АРТЕМ/Desktop/ops/build/CMakeFiles/rebuild_cache.dir
